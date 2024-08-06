@@ -31,7 +31,7 @@ app.post("/start", (req, res) => {
         host: "192.168.50.140", // minecraft server ip
         //host: "127.0.0.1", // minecraft server ip
         port: req.body.port, // minecraft server port
-        username: "bot",
+        username: "bot1",
         disableChatSigning: true,
         checkTimeoutInterval: 60 * 60 * 1000,
     });
